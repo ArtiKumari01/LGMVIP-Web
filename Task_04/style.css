@@ -1,0 +1,74 @@
+.container {
+  text-align : center;
+  max-width: 100%;
+  background-image: linear-gradient(to right, #b898d2, #171823);
+ }
+
+ table{
+     margin: auto;
+  }
+ 
+ button{
+     width: 147px;
+     height: 64.5px;
+     margin: 3px;
+     border-radius: 15px;
+     border: 1px solid #71caf7;
+     background-color: #bfd5e0;
+     font-size: 25px;
+     cursor: pointer;
+  }
+ 
+  button:active{
+     border : 2px solid #eff797;
+  }
+ 
+ #input{
+    width: 594px;
+    height: 77px;
+    margin-bottom:  10px;
+    border-radius: 5px;
+    border: 1px solid #d4ecf7;;
+    font-size: 35px;
+    padding: 0px 10px;
+    text-align: right;
+  }
+ 
+  .secondarybtn{
+      background-color:#dadce0;
+  }
+
+  .ansbtn {
+     background-color: #4285f4;
+     font-weight: 700;
+     color: white;  
+  }
+ 
+  #backbtn{
+    background-color: #dadce0;
+    text-decoration-color: #dadce0;
+  }
+ 
+  @media screen and (max-width: 800px) {
+    button{
+      width: 15vw;
+      font-size: 4vw;
+      
+    }
+    #input{
+       width: 61vw;
+    }
+
+    #h1{
+       font-size: 6vw;
+       }
+ 
+    div #footer{
+          font-size: 2vw;
+    }
+  }
+ 
+  div #footer{
+    margin-top: 50px;
+ }
+ 
